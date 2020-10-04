@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./app.css";
+import CitySearch from "./CitySearch";
+import TodayTemp from "./TodayTemp";
+import Forecast from "./Forecast";
+import Footer from "./Footer";
+import background from "./media/01d.mp4";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="section">
+        <div className="vids">
+          <div id="video">
+            <video autoplay loop muted id="vids">
+              <source src={background} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div className="container">
+          <span className="main-content">
+            <CitySearch />
+            <br />
+            <TodayTemp />
+            <hr />
+            <Forecast />
+            <br />
+            <Footer />
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
