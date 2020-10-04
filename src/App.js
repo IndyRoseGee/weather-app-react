@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./contents.css";
 
 import CitySearch from "./CitySearch";
 import TodayTemp from "./TodayTemp";
@@ -14,7 +14,7 @@ export default function App() {
         <div className="vids">
           <div id="video">
             <video autoPlay loop muted id="vids">
-              <source src={background} type="video/mp4"/>
+              <source src={background} type="video/mp4" />
             </video>
           </div>
         </div>
