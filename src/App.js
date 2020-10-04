@@ -1,10 +1,11 @@
 import React from "react";
+import "./app.css";
+
 import CitySearch from "./CitySearch";
 import TodayTemp from "./TodayTemp";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
 import background from "./media/01d.mp4";
-import "./app.css";
 
 export default function App() {
   return (
