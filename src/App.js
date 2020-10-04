@@ -12,7 +12,7 @@ export default function App() {
       <div className="section">
         <div className="vids">
           <div id="video">
-            <video autoplay loop muted id="vids">
+            <video autoPlay loop muted id="vids">
               <source src={background} type="video/mp4" />
             </video>
           </div>
