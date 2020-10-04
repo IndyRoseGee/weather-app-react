@@ -14,7 +14,7 @@ export default function App() {
         <div className="vids">
           <div id="video">
             <video autoPlay loop muted id="vids">
-              <source src={background} type="video/mp4" />
+              <source src={background} type="video/mp4"/>
             </video>
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function Forecast() {
               </p>
               <span id="day-one-box">
                 <p className="small-t-emoji">
-                  <img src={emoji} />
+                  <img src={emoji} alt="icon" />
                 </p>
 
                 <p>
@@ -41,7 +41,7 @@ export default function Forecast() {
               </p>
               <span id="day-two-box">
                 <p className="small-t-emoji">
-                  <img src={emoji} />
+                  <img src={emoji} alt="icon" />
                 </p>
                 <p>
                   <span className="daytemp" id="highFiveDayTemp">
@@ -65,7 +65,7 @@ export default function Forecast() {
               </p>
               <span id="day-three-box">
                 <p className="small-t-emoji">
-                  <img src={emoji} />
+                  <img src={emoji} alt="icon" />
                 </p>
                 <p>
                   <span className="daytemp" id="highFiveDayTemp">
@@ -89,7 +89,7 @@ export default function Forecast() {
               </p>
               <span id="day-four-box">
                 <p className="small-t-emoji">
-                  <img src={emoji} />
+                  <img src={emoji} alt="icon" />
                 </p>
                 <p>
                   <span className="daytemp" id="highFiveDayTemp">
@@ -113,7 +113,7 @@ export default function Forecast() {
               </p>
               <span id="day-five-box">
                 <p className="small-t-emoji">
-                  <img src={emoji} />
+                  <img src={emoji} alt="icon" />
                 </p>
                 <p>
                   <span className="daytemp" id="highFiveDayTemp">
