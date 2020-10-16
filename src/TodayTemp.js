@@ -3,6 +3,7 @@ import "./todaytemp.css";
 import bigEmoji from "./media/01d.png";
 
 export default function TodayTemp() {
+
     return (
         <div className="today-temp">
             <p className="today" id="todays-date">
