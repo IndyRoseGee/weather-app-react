@@ -2,6 +2,7 @@ import React from "react";
 import "./todaytemp.css";
 import bigEmoji from "./media/01d.png";
 import TodayDate from "./TodayDate";
+import WeatherDescription from "./WeatherDescription";
 
 export default function TodayTemp() {
 
@@ -42,20 +43,7 @@ export default function TodayTemp() {
                     <div className="col-1"></div>
                 </div>
             </div>
-            <div className="weatherDes">
-                <p>
-                    <span id="desWea">It is Sunny</span>
-                </p>
-            </div>
-
-            <div className="descriptives">
-                <p className="descriptive">
-                    Humidity = <span id="humidity">-</span>%
-        </p>
-                <p className="descriptive">
-                    Wind Speed = <span id="wind">-</span> m/s
-        </p>
-            </div>
+                <WeatherDescription/>
         </div>
     );
 }

@@ -20,7 +20,6 @@ export default function App() {
         <div className="container">
           <span className="main-content">
             <CitySearch />
-
             <hr />
             <Forecast />
             <br />

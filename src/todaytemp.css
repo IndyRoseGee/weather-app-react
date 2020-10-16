@@ -26,25 +26,6 @@
   color: black;
 }
 
-.descriptive {
-  display: inline-block;
-  padding-top: 5px;
-  font-size: 23px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.descriptives {
-  text-align: center;
-}
-
-.weatherDes {
-  display: inline;
-  font-size: 23px;
-  font-style: italic, bold;
-  text-transform: capitalize;
-  font-family: sans-serif;
-  text-align: center;
-}
 
 #todays-date {
   padding-bottom: 0;
