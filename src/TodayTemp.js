@@ -4,12 +4,12 @@ import bigEmoji from "./media/01d.png";
 import TodayDate from "./TodayDate";
 import WeatherDescription from "./WeatherDescription";
 
-export default function TodayTemp() {
+export default function TodayTemp(props) {
 
     return (
         <div className="today-temp">
             <p className="today" id="todays-date">
-        <TodayDate/>
+        <TodayDate date={props.data.date}/>
         </p>
             <div className="mainTemp">
                 <div className="row">
