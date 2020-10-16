@@ -1,30 +1,21 @@
 
 import React from "react";
-import Date from "./Date";
-
 
 
 export default function Date(props) {
-
-    function formatDate() {
-  let currentDate = new Date();
-  let date = currentDate.getDate();
-  let hours = currentDate.getHours(0, 0, 0, 0);
-  let minutes = currentDate.getMinutes();
-  let year = currentDate.getFullYear();
-
+  
   let days = [
     "Sunday",
     "Monday",
-    "Tueday",
+    "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday",
+    "Saturday"
   ];
-  let day = days[currentDate.getDay()];
+    let day = days[props.date.getDay()];
 
-  let months = [
+   let months = [
     "January",
     "Febuary",
     "March",
@@ -38,13 +29,17 @@ export default function Date(props) {
     "November",
     "December",
   ];
-  let month = months[currentDate.getMonth()];
+  let month = months[props.getMonth()]
 
-  return currentTimeDate;
-}
-console.log(formatDate(new Date()));
-
-
+  let year = props.date.getFullYear();
+  let date = props.getDate();
+  
+  let hours = props.date.getHours(0, 0, 0, 0);
+  
+  let minutes = props.date.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
 return (
             <div>
                 Today ${hours}:${minutes} | ${day} ${date} ${month} ${year}
