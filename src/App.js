@@ -2,7 +2,6 @@ import React from "react";
 import "./contents.css";
 
 import CitySearch from "./CitySearch";
-import TodayTemp from "./TodayTemp";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
 import background from "./media/01d.mp4";
@@ -21,8 +20,7 @@ export default function App() {
         <div className="container">
           <span className="main-content">
             <CitySearch />
-            <br />
-            <TodayTemp />
+
             <hr />
             <Forecast />
             <br />

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./citysearch.css";
 import axios from "axios";
+import TodayTemp from "./TodayTemp";
 
 export default function CitySearch(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -63,6 +64,8 @@ export default function CitySearch(props) {
             </button>
           </form>
         </nav>
+          <br />
+            <TodayTemp city={weatherData.city} data={weatherData}/>
       </div>
     </div>
   );

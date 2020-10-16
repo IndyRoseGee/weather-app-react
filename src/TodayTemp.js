@@ -1,14 +1,14 @@
 import React from "react";
 import "./todaytemp.css";
 import bigEmoji from "./media/01d.png";
+import Date from "./Date";
 
 export default function TodayTemp() {
 
     return (
         <div className="today-temp">
             <p className="today" id="todays-date">
-                Today Time | Day Date Month 2020
-      </p>
+        <Date/></p>
             <div className="mainTemp">
                 <div className="row">
                     <div className="col-2"></div>
