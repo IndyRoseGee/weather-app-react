@@ -3,8 +3,6 @@ import "./forecast.css";
 import emoji from "./media/02d.png";
 
 export default function Forecast() {
-      const apiKey = "5e479c0f3c564141872dc35a4d10e84c";
-
   return (
     <div className="small-temps" id="forecast">
       <div className="row">

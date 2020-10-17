@@ -39,7 +39,7 @@ export default function CitySearch(props) {
       <div className="navbar-css">
         <nav className="navbar navbar-light bg-light">
           <h1 id="navbarCity">London, UK</h1>
-          <form className="form-inline" id="search-form">
+          <form className="form-inline" id="search-form" onSubmit={handleSubmit}>
             <input
               className="form-control mr-sm-2"
               type="search"

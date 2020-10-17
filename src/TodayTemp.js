@@ -2,7 +2,7 @@ import React from "react";
 import "./todaytemp.css";
 import bigEmoji from "./media/01d.png";
 import TodayDate from "./TodayDate";
-import WeatherDescription from "./WeatherDescription";
+import WeatherDescription from "./Descripts";
 
 export default function TodayTemp(props) {
 

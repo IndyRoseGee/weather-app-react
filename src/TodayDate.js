@@ -1,8 +1,7 @@
 
 import React from "react";
 
-
-export default function Date(props) {
+export default function TodayDate(props) {
   
   let days = [
     "Sunday",
@@ -13,7 +12,8 @@ export default function Date(props) {
     "Friday",
     "Saturday"
   ];
-    let day = days[props.date.getDay()];
+  
+  let day = days[props.date.getDay()];
 
    let months = [
     "January",
@@ -42,7 +42,7 @@ export default function Date(props) {
   }
 return (
             <div>
-                Today ${hours}:${minutes} | ${day} ${date} ${month} ${year}
+                Today {hours}:{minutes} | {day} {date} {month} {year}
       </div>
       );
 }
