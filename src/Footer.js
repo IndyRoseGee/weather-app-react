@@ -8,7 +8,7 @@ export default function Forecast() {
         <a href="https://github.com/IndyRoseGee/weather-app-react">
           Open-source code
         </a>{" "}
-        by India Gee
+        by India Rose Gee
       </footer>
     </div>
   );
