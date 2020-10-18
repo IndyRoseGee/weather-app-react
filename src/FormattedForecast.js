@@ -24,7 +24,6 @@ export default function FormattedForecast(props) {
     nextDay[i - 1] = days[nextDayIndex];
     return nextDay;
   }
-  let date = new Date(props.data.dt * 1000);
 
   return (
     <div className="col boxes">

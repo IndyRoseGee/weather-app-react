@@ -31,7 +31,7 @@ export default function FormattedDate(props) {
   let month = months[props.date.getMonth()]
 
   let year = props.date.getFullYear();
-  let date = props.date.getDate();
+  let todaydate = props.date.getDate();
   
   let hours = props.date.getHours(0, 0, 0, 0);
   
@@ -41,7 +41,7 @@ export default function FormattedDate(props) {
   }
 return (
            <span>
-                Today {hours}:{minutes} | {day} {date} {month} {year}
+                Today {hours}:{minutes} | {day} {todaydate} {month} {year}
       </span>
       );
 }
