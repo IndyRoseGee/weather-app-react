@@ -22,8 +22,8 @@ export default function Forecast(props) {
     props.latitude === forecast.lat
   ) {
     return (
-      <div class="small-temps" id="forecast">
-        <div class="row">
+      <div className="small-temps" id="forecast">
+        <div className="row">
           <FormattedForecast index={1} data={forecast.daily} />
           <FormattedForecast index={2} data={forecast.daily} />
           <FormattedForecast index={3} data={forecast.daily} />

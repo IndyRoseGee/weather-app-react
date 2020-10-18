@@ -40,8 +40,8 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
 return (
-            <div>
+           <span>
                 Today {hours}:{minutes} | {day} {date} {month} {year}
-      </div>
+      </span>
       );
 }

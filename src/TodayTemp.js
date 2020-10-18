@@ -39,9 +39,9 @@ export default function TodayTemp(props) {
                     {props.data.description}
                 </p>
             </div>
-          <div class="descriptives">
-            <p class="descriptive">Humidity = {props.data.humidity}%</p>
-            <p class="descriptive">Wind Speed = {props.data.wind} m/s</p>
+          <div className="descriptives">
+            <p className="descriptive">Humidity = {props.data.humidity}%</p>
+            <p className="descriptive">Wind Speed = {props.data.wind} m/s</p>
           </div>
         </div>
     );
