@@ -1,20 +1,11 @@
 .section {
   position: relative;
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container {
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.678);
-  margin: 0 auto;
-  margin-top: 45px;
-  margin-bottom: 30px;
-  width: 780px;
-  border-radius: 10px;
-}
 .vids {
   position: fixed;
   top: 0;
@@ -53,7 +44,7 @@ p {
 }
 #button:hover {
   color: white;
-  background-color: black;
+  background-color: #000000;
   border-color: white;
 }
 
@@ -66,4 +57,9 @@ p {
   color: white;
   background-color: rgb(1, 88, 158);
   border-color: white;
+}
+
+.loading {
+  padding-top: 15px;
+  text-align: center;
 }

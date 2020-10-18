@@ -1,30 +1,28 @@
 import React from "react";
 import "./contents.css";
 
-import CitySearch from "./CitySearch";
-import Forecast from "./Forecast";
+import Weather from "./Weather";
 import Footer from "./Footer";
-import background from "./media/01d.mp4";
 
-export default function App() {
+import WeatherVideos from "./media/01d.mp4";
+
+export default function App(props) {
   return (
     <div className="app">
       <div className="section">
         <div className="vids">
           <div id="video">
-            <video autoPlay loop muted id="vids">
-              <source src={background} type="video/mp4" />
-            </video>
+        <video autoPlay loop muted id="vids">
+            <source src={WeatherVideos} type="video/mp4" />
+        </video>
           </div>
         </div>
-        <div className="container">
-          <span className="main-content">
-            <CitySearch />
-            <hr />
-            <Forecast />
+        <div className="container" max-width="600px">
+          <div className="main-content">
+            <Weather defaultCity="London"/>
             <br />
             <Footer />
-          </span>
+          </div>
         </div>
       </div>
     </div>

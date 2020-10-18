@@ -1,8 +1,7 @@
-
 import React from "react";
 
-export default function TodayDate(props) {
-  
+export default function FormattedDate(props) {
+
   let days = [
     "Sunday",
     "Monday",
